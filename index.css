@@ -1,0 +1,389 @@
+body {
+  overflow-x: hidden;
+}
+
+#navBar {
+  position: fixed;
+  z-index: 9999;
+  /* top: -1px; */
+  height: auto;
+  width: 100%;
+  background: #ffffff !important;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  width: 115px;
+  height: 70px;
+  /* width: 110px;
+  height: 60px; */
+  margin-top: -6px;
+}
+
+#navbarNav {
+  position: relative;
+  left: 62%;
+}
+
+#home {
+  color: rgb(37, 35, 35);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  /* color: #14bdee; */
+  font-size: 18px;
+  /* font-weight: bold; */
+}
+
+#home:hover {
+  color: rgb(37, 35, 35);
+  text-decoration: underline;
+  color: #14bdee;
+  /* font-weight: bold; */
+}
+
+#moreDetails {
+  color: rgb(37, 35, 35);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  /* color: #14bdee; */
+  font-size: 18px;
+}
+
+#moreDetails:hover {
+  color: rgb(37, 35, 35);
+  text-decoration: underline;
+  color: #14bdee;
+  /* font-weight: bold; */
+}
+
+#contactUs {
+  color: rgb(37, 35, 35);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  /* color: #14bdee; */
+  font-size: 18px;
+}
+
+#contactUs:hover {
+  color: rgb(37, 35, 35);
+  text-decoration: underline;
+  color: #14bdee;
+  /* font-weight: bold; */
+}
+
+.titleName {
+  position: absolute;
+  top: 202px;
+  z-index: 999;
+  left: 40%;
+  color: rgb(37, 35, 35);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+  box-shadow: 3px 4px 10px 1px rgba(185, 49, 49, 0.253);
+}
+
+.courseBtn {
+  position: absolute;
+  top: 90%;
+  z-index: 999;
+  left: 46%;
+  width: 10%;
+  height: auto;
+}
+
+.btnName:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.banner {
+  /* width: 1349px; */
+  width: 100%;
+  height: auto;
+  position: relative;
+  /* left: -15px; */
+  padding-bottom: 15px;
+  /* padding-top: 5px; */
+  margin-top: 63px;
+}
+
+hr {
+  border-color: rgb(168, 168, 168);
+}
+
+a {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: white;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: rgb(243, 243, 18);
+}
+
+#admissionCard {
+  /* border: solid 1px black; */
+  padding-left: 10px;
+  padding-right: 10px;
+  height: auto;
+  padding-bottom: 15px;
+}
+
+.moreCourses {
+  background: top;
+  border: none;
+  color: white;
+  margin-left: -4px;
+  margin-top: 10px;
+}
+
+.moreCourses:hover {
+  color: rgb(243, 243, 18);
+}
+
+#courseList {
+  /* border: solid 1px black; */
+  padding-left: 10px;
+  padding-right: 10px;
+  height: auto;
+  position: relative;
+  /* top: 160px; */
+  top: 87px;
+  margin-bottom: 45px;
+}
+
+#courseList3 {
+  /* border: solid 1px black; */
+  padding-left: 10px;
+  padding-right: 10px;
+  height: auto;
+  position: relative;
+  /* top: 160px; */
+  top: 25px;
+  margin-bottom: 45px;
+}
+
+#courseCard {
+  height: 505px;
+  border-radius: 30px;
+}
+
+#courseCard2 {
+  height: 505px;
+  border-radius: 30px;
+}
+
+#footer {
+  top: 12px;
+  height: auto;
+  width: 100%;
+  /* background: rgb(55, 211, 133) !important; */
+}
+
+#address {
+  /* width: 100%; */
+  height: auto;
+  color: #ffffff;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+#contactInfo {
+  /* width: 100%; */
+  height: auto;
+  color: #ffffff;
+  margin-left: 18%;
+  margin-top: -3px;
+}
+
+#developer {
+  /* width: 100%; */
+  height: auto;
+  color: #ffffff;
+  margin-left: 6%;
+  margin-top: -26px;
+}
+
+ul li {
+  padding-right: 20px;
+}
+
+.courseTitle {
+  position: relative;
+  top: 100px;
+  left: 45%;
+  padding-bottom: 30px;
+  text-decoration: underline;
+  text-decoration-color: rgb(43, 171, 245);
+}
+
+.contactTitle {
+  position: relative;
+  top: 115px;
+  /* top: 83px; */
+  left: 43%;
+  /* padding-bottom: 30px; */
+  text-decoration: underline;
+  text-decoration-color: rgb(43, 171, 245);
+}
+
+.tutionOffered {
+  position: relative;
+  top: 29px;
+  left: 40%;
+  padding-bottom: 30px;
+  text-decoration: underline;
+  text-decoration-color: rgb(43, 171, 245);
+}
+
+.courseDesc {
+  position: relative;
+  left: 36%;
+  top: -22px;
+}
+
+.courseDesc1 {
+  position: relative;
+  left: 40%;
+  top: -12px;
+}
+
+.courseDesc2 {
+  position: relative;
+  left: 38%;
+  top: -5px;
+}
+
+#contactCard {
+  top: 150px;
+  /* top: 80px; */
+  left: 41%;
+  box-shadow: 12px 6px 12px 6px rgba(0, 0, 0, 0.15);
+  margin-bottom: 170px;
+}
+
+.contactNumber {
+  color: black;
+}
+
+.contactNumber:hover {
+  color: #14bdee;
+}
+
+@media only screen and (max-width: 800px) {
+  #contactInfo {
+    margin-top: 20px;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #developer {
+    margin-top: 20px;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #footerLogo {
+    margin-left: 93%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #admissionCard2 {
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  ul li {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #navbarNav {
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #home,
+  #moreDetails,
+  #contactUs {
+    color: black;
+    font-size: 13px;
+    margin-right: -5px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .titleName {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .courseBtn {
+    top: 80%;
+    left: 41%;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .courseTitle {
+    top: 78px;
+    left: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .tutionOffered {
+    top: 29px;
+    left: 7%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .courseDesc,
+  .courseDesc1,
+  .courseDesc2 {
+    top: 83%;
+    left: 4%;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #courseList {
+    top: 64px;
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #contactCard {
+    top: 150px;
+    left: 13%;
+    box-shadow: 12px 6px 12px 6px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contactTitle {
+    top: 120px;
+    left: 21%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+}
