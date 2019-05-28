@@ -27,7 +27,8 @@ body {
 
 #home {
   color: rgb(37, 35, 35);
-  font-family: "Roboto", sans-serif;
+  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Roboto", sans-serif; */
   font-weight: 500;
   /* color: #14bdee; */
   font-size: 18px;
@@ -43,7 +44,8 @@ body {
 
 #moreDetails {
   color: rgb(37, 35, 35);
-  font-family: "Roboto", sans-serif;
+  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Roboto", sans-serif; */
   font-weight: 500;
   /* color: #14bdee; */
   font-size: 18px;
@@ -58,7 +60,8 @@ body {
 
 #contactUs {
   color: rgb(37, 35, 35);
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Courier New", Courier, monospace;
   font-weight: 500;
   /* color: #14bdee; */
   font-size: 18px;
@@ -77,9 +80,10 @@ body {
   z-index: 999;
   left: 40%;
   color: rgb(37, 35, 35);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; */
+  font-weight: bolder;
   box-shadow: 3px 4px 10px 1px rgba(185, 49, 49, 0.253);
 }
 
@@ -106,6 +110,7 @@ body {
   padding-bottom: 15px;
   /* padding-top: 5px; */
   margin-top: 63px;
+  /* margin-left: 23px; */
 }
 
 hr {
@@ -128,9 +133,13 @@ a:hover {
 #admissionCard {
   /* border: solid 1px black; */
   padding-left: 10px;
+  /* padding-left: 44px; */
   padding-right: 10px;
   height: auto;
   padding-bottom: 15px;
+}
+#admissionCard2 {
+  margin-bottom: 25px;
 }
 
 .moreCourses {
@@ -166,7 +175,9 @@ a:hover {
   top: 25px;
   margin-bottom: 45px;
 }
-
+#admissionReq {
+  margin-bottom: 70px;
+}
 #courseCard {
   height: 505px;
   border-radius: 30px;
@@ -181,6 +192,7 @@ a:hover {
   top: 12px;
   height: auto;
   width: 100%;
+  left: 0px;
   /* background: rgb(55, 211, 133) !important; */
 }
 
@@ -218,6 +230,7 @@ ul li {
   left: 45%;
   padding-bottom: 30px;
   text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
   text-decoration-color: rgb(43, 171, 245);
 }
 
@@ -228,16 +241,36 @@ ul li {
   left: 43%;
   /* padding-bottom: 30px; */
   text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
   text-decoration-color: rgb(43, 171, 245);
 }
 
 .tutionOffered {
   position: relative;
   top: 29px;
-  left: 40%;
+  left: 35%;
+  /* left: 40%; */
   padding-bottom: 30px;
   text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
   text-decoration-color: rgb(43, 171, 245);
+}
+.courseReq {
+  position: relative;
+  top: 90px;
+  left: 40%;
+  padding-bottom: 111px;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration-color: rgb(43, 171, 245);
+}
+.requriments {
+  top: 10px;
+  left: 41%;
+  /* color: rgb(37, 35, 35); */
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+  padding-bottom: 30px;
 }
 
 .courseDesc {
@@ -272,6 +305,47 @@ ul li {
 
 .contactNumber:hover {
   color: #14bdee;
+}
+.cardMainTitle {
+  font-family: "Courier New", Courier, monospace;
+}
+.courseInfoList {
+  display: inline-block;
+  margin-right: 35px;
+  vertical-align: middle;
+}
+.courseInfoList:hover {
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.15);
+}
+.detailsCard {
+  left: 23px;
+  display: block;
+  margin-bottom: 20px;
+}
+.detailsCard img {
+  height: 175px;
+}
+.alignSpacing {
+  padding-bottom: 124px;
+}
+.alignSpacing2 {
+  padding-bottom: 12px;
+}
+.alignSpacing3 {
+  padding-bottom: 78px;
+}
+.alignSpacing4 {
+  padding-bottom: 0px;
+}
+.alignSpacing5 {
+  padding-bottom: 124px;
+  /* padding-bottom: 210px; */
+}
+.alignSpacing6 {
+  padding-bottom: 169px;
+}
+#listTitle {
+  margin-top: 22px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -327,11 +401,16 @@ ul li {
     display: none;
   }
 }
+@media only screen and (max-width: 800px) {
+  #footer {
+    /* left: 23px; */
+  }
+}
 
 @media only screen and (max-width: 800px) {
   .courseBtn {
     top: 80%;
-    left: 41%;
+    left: 35%;
     width: auto;
   }
 }
@@ -340,6 +419,13 @@ ul li {
   .courseTitle {
     top: 78px;
     left: 30%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .banner {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
   }
 }
 
@@ -385,5 +471,30 @@ ul li {
 @media only screen and (max-width: 800px) {
   body {
     overflow-x: hidden;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .courseReq {
+    left: 2%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .requriments {
+    left: 3%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .courseInfoList {
+    margin-bottom: 18px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .alignSpacing5,
+  .alignSpacing6,
+  .alignSpacing3,
+  .alignSpacing4,
+  .alignSpacing,
+  .alignSpacing2 {
+    padding-bottom: 30px;
   }
 }
