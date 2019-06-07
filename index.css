@@ -80,11 +80,9 @@ body {
   z-index: 999;
   left: 40%;
   color: rgb(37, 35, 35);
-  font-family: "Courier New", Courier, monospace;
-  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif; */
-  font-weight: bolder;
-  box-shadow: 3px 4px 10px 1px rgba(185, 49, 49, 0.253);
+}
+.bannerLogo {
+  width: 58%;
 }
 
 .courseBtn {
@@ -154,7 +152,7 @@ a:hover {
   color: rgb(243, 243, 18);
 }
 
-#courseList {
+.courseList {
   /* border: solid 1px black; */
   padding-left: 10px;
   padding-right: 10px;
@@ -342,10 +340,16 @@ ul li {
   /* padding-bottom: 210px; */
 }
 .alignSpacing6 {
-  padding-bottom: 169px;
+  padding-bottom: 122px;
 }
+/* .alignSpacing6 {
+  padding-bottom: 169px;
+} */
 #listTitle {
   margin-top: 22px;
+}
+#twelve {
+  margin-bottom: 85px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -396,11 +400,11 @@ ul li {
   }
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
   .titleName {
     display: none;
   }
-}
+} */
 @media only screen and (max-width: 800px) {
   #footer {
     /* left: 23px; */
@@ -486,6 +490,12 @@ ul li {
 @media only screen and (max-width: 800px) {
   .courseInfoList {
     margin-bottom: 18px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .bannerLogo {
+    position: relative;
+    bottom: 100px;
   }
 }
 @media only screen and (max-width: 800px) {
