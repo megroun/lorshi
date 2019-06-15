@@ -82,7 +82,8 @@ body {
   color: rgb(37, 35, 35);
 }
 .bannerLogo {
-  width: 58%;
+  /* width: 58%; */
+  width: 85%;
 }
 
 .courseBtn {
@@ -495,7 +496,19 @@ ul li {
 @media only screen and (max-width: 800px) {
   .bannerLogo {
     position: relative;
-    bottom: 100px;
+    bottom: 130px;
+    width: 105%;
+    right: 33px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .applyButtonOne {
+    left: 80%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .applyButton {
+    left: 70%;
   }
 }
 @media only screen and (max-width: 800px) {
